@@ -1,0 +1,148 @@
+* {
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#title {
+    background-color: fuchsia;
+    padding: 3% 7% 10%;
+}
+
+.white-hover:hover {
+    background-color: white;
+    color: #ff00ff;
+}
+
+.white-color:active {
+    color: fuchsia;
+}
+
+.container-fluid {
+    padding: 3% 7%;
+}
+
+.white-color {
+    color: white;
+}
+
+.purple-color {
+    color: fuchsia;
+}
+
+.navbar {
+    font-family: 'Niconne';
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 10px;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.title-image {
+    margin: 10% 10% 20%;
+    transform: rotate(20deg);
+    width: 60%;
+}
+
+.images {
+    width: 212px;
+    height: 156px;
+}
+
+.offers-images {
+    margin: 3%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anton';
+}
+
+p, .title-p {
+    font-family: 'Oswald';
+    font-weight: 200;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+h3, h4 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.title-p {
+    font-size: 1.5rem;
+}
+
+.Oswald { 
+    font-size: 1rem;
+}
+
+#features {
+    background-color: white;
+    color: fuchsia;
+    margin: 100px 0;
+    text-align: center;
+}
+
+.spaces {
+    margin: 0 0 15px;
+}
+
+.awesome {
+    color: fuchsia;
+    margin: 3%;
+}
+
+#Pricing {
+    background-color: fuchsia;
+    font-size: 2rem;
+    text-align: center;
+    padding: 100px;
+}
+.card {
+    margin: 3%;
+}
+
+
+#footer {
+    text-align: center;
+}
+
+.footer {
+    margin: 10px;
+}
+
+.line {
+    background-color: fuchsia;
+    color: white;
+    margin: 20px 0 0;
+}
+
+
+@media screen and (max-width: 1106px) {
+    .title-image {
+        margin: 10%;
+        transform: rotate(0);
+        size-adjust: -50%;
+    }
+
+    #Pricing {
+        padding: 50px;
+    }
+
+    #footer, #Pricing {
+        width: -25%;
+        height: -25%;
+    }
+
+}
